@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                    <stroke android:width="1dp" android:color="@color/grey" />
+                    <corners android:radius="4dp" />
+                    <padding android:left="12dp" android:right="12dp"
+                        android:top="8dp" android:bottom="8dp"/>
+                </shape>
+            </item>
+            <item android:gravity="end|center_vertical" android:right="8dp">
+                <rotate android:fromDegrees="0" android:toDegrees="0">
+                    <vector
+                        android:width="24dp"
+                        android:height="24dp"
+                        android:viewportWidth="24"
+                        android:viewportHeight="24">
+                        <path
+                            android:fillColor="@color/grey"
+                            android:pathData="M7,10l5,5 5,-5z"/>
+                    </vector>
+                </rotate>
+            </item>
+        </layer-list>
+    </item>
+</selector>

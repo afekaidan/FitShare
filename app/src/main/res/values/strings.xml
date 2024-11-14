@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FitShare</string>
+    <string name="x">✕</string>
+    <string name="share">Share</string>
+</resources>
